@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">whitenoise</string>
+    <string name="action_settings">Settings</string>
+    <string name="oceanwaves">Ocean Waves</string>
+    <string name="rain">Rain</string>
+    <string name="wind">Wind</string>
+    <string name="caveambience">Cave Ambience</string>
+    <string name="blizzard">Blizzard</string>
+    <string name="thunderlightrain">Thunder and Light Rain</string>
+    <string name="whatswhitenoise">What is a white noise</string>
+    <string name="definition">It is a sound composed of all the frequencies together. They are not exactly white noises, but nature generates some sound similar to a white noise.As background, nature white noises help you to relax you and concentrate.</string>
+    <string name="title_activity_sound_player">soundPlayer</string>
+    <string name="soundToPlay">soundToPlay</string>
+
+</resources>

@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#aa0f0f0f">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/oceanwaves"
+            android:id="@+id/buttonOW"
+            android:layout_gravity="center_horizontal"
+            android:onClick="sound"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rain"
+            android:id="@+id/buttonR"
+            android:layout_gravity="center_horizontal"
+            android:onClick="sound"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wind"
+            android:id="@+id/buttonW"
+            android:layout_gravity="center_horizontal"
+            android:onClick="sound"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/caveambience"
+            android:id="@+id/buttonCA"
+            android:layout_gravity="center_horizontal"
+            android:onClick="sound"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/blizzard"
+            android:id="@+id/buttonB"
+            android:layout_gravity="center_horizontal"
+            android:onClick="sound"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/thunderlightrain"
+            android:id="@+id/buttonTLR"
+            android:layout_gravity="center_horizontal"
+            android:onClick="sound"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/whatswhitenoise"
+            android:id="@+id/buttonWWN"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:onClick="definition"/>
+    </LinearLayout>
+</RelativeLayout>
